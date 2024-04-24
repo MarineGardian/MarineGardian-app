@@ -1,0 +1,15 @@
+flat_nettoyage.Rmd:
+  path: dev/flat_graphes.Rmd
+  state: active
+  R: R/grahespackeges.R
+  tests:
+  - tests/testthat/test-first.R
+  - tests/testthat/test-grahespackeges.R
+  vignettes: vignettes/graphes-packages.Rmd
+  inflate:
+    flat_file: dev/flat_graphes.Rmd
+    vignette_name: Graphes packages
+    open_vignette: true
+    check: true
+    document: true
+    overwrite: ask
